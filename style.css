@@ -1,0 +1,43 @@
+body {
+  font-family: 'Avenir Next', sans-serif;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  color: #fff;
+  z-index: 2;
+  background-color: #263238;
+}
+header p {
+  padding: 0 0 0 30px;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+#input, #output {
+  display: block;
+  position: absolute;
+  top: 70px;
+  height: 100vh;
+  padding: 20px;
+  outline: none;
+  border: none;
+}
+
+#input {
+  left: 0px;
+  width: 40%;
+}
+#output {
+  right: 0px;
+  width: 60%;
+  background-color: #eeefef;
+}
+
+ul {
+  padding: 1rem;
+  margin: 1rem;
+}
